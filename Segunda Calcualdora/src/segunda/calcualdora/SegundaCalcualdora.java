@@ -7,6 +7,7 @@ import view.View;
 public class SegundaCalcualdora {
 
     public static void main(String[] args) {
+        
         View view = new View();
         Model model = new Model();
 

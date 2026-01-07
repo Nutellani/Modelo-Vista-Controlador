@@ -6,6 +6,7 @@ public class Model {
     private Double txtNumeroDos;
     private Double txtResultado;
 
+
     public Model() {
     }
 
@@ -61,6 +62,6 @@ public class Model {
             return;
         }
         this.txtResultado = this.txtNumeroUno / this.txtNumeroDos;
-    }
-
+    }    
+    
 }
