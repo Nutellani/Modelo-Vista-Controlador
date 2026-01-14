@@ -29,7 +29,7 @@ public class Controller implements ActionListener {
         this.view.btnMultiplicacion.addActionListener(this);
         this.view.btnDivision.addActionListener(this);
     }
-
+    
     @Override
     public void actionPerformed(ActionEvent e) {
 

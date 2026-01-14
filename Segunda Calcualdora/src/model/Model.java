@@ -6,15 +6,14 @@ public class Model {
     private Double txtNumeroDos;
     private Double txtResultado;
 
-
     public Model() {
     }
 
-    public Model(Double txtNumeroUno, Double txtNumeroDos, Double txtResultado) {
-        this.txtNumeroUno = txtNumeroUno;
-        this.txtNumeroDos = txtNumeroDos;
-        this.txtResultado = txtResultado;
-    }
+//    public Model(Double txtNumeroUno, Double txtNumeroDos, Double txtResultado) {
+//        this.txtNumeroUno = txtNumeroUno;
+//        this.txtNumeroDos = txtNumeroDos;
+//        this.txtResultado = txtResultado;
+//    }
 
     // SETTERS & SETTERS
     public Double getTxtNumeroUno() {
