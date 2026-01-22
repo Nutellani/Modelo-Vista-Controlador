@@ -1,4 +1,4 @@
-package main;
+package micrucigramav2;
 
 import model.Model;
 import view.View;
