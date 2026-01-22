@@ -121,7 +121,7 @@ public class View extends javax.swing.JFrame {
         jScrollPane47 = new javax.swing.JScrollPane();
         jTextPane46 = new javax.swing.JTextPane();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        textClue = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -394,9 +394,9 @@ public class View extends javax.swing.JFrame {
                 .addContainerGap(30, Short.MAX_VALUE))
         );
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane2.setViewportView(jTextArea1);
+        textClue.setColumns(20);
+        textClue.setRows(5);
+        jScrollPane2.setViewportView(textClue);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -526,7 +526,6 @@ public class View extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextPane jTextPane10;
     private javax.swing.JTextPane jTextPane11;
     private javax.swing.JTextPane jTextPane12;
@@ -572,5 +571,6 @@ public class View extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane7;
     private javax.swing.JTextPane jTextPane8;
     private javax.swing.JTextPane jTextPane9;
+    private javax.swing.JTextArea textClue;
     // End of variables declaration//GEN-END:variables
 }

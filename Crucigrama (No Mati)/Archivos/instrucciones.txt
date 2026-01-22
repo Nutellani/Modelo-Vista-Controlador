@@ -1,0 +1,11 @@
+¿Qué es un Crucigrama?
+
+Un crucigrama es un juego de palabras donde debes
+llenar una cuadrícula con letras, formando palabras que se
+cruzan horizontal y verticalmente. Cada palabra está definida por
+una pista que te ayuda a descubrirla.
+
+Objetivo del Juego:
+
+El objetivo es llenar todas las casillas de la cuadrícula con las letras
+correctas para formar palabras basadas en las pistas proporcionadas.

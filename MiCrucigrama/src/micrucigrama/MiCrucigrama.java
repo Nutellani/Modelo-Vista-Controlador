@@ -13,6 +13,7 @@ public class MiCrucigrama {
         
         Controller controller = new Controller(model, view);
         controller.iniciar();
+        view.setVisible(true);
         
         // TERMINAR DE LLENAR Y PROBAR SI ANDA EL BOTON 2 ashei
         
