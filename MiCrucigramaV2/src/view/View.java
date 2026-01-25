@@ -16,6 +16,19 @@ public class View extends javax.swing.JFrame {
      */
     public View() {
         initComponents();
+
+        /* VER AL FINAL SI ESTO VÁ EN AL VIEW O NO...
+        // Lista de todos los box a estilizar
+        javax.swing.JTextPane[] celdas = {box1_1, box1_1_2_2, box1_2, box1_4, box1_5, box1_6_3_1, box2_1, box2_3, box2_4, box2_5, box3_10,
+            box3_11_6_6, box3_2, box3_3, box3_4, box3_5, box3_6, box3_7, box3_8, box3_9, box4_1, box4_2, box4_3,
+            box4_4, box4_5, box4_6_6_2, box4_7, box5_1, box5_10, box5_2, box5_3, box5_4_6_8, box5_5, box5_6,
+            box5_7_7_3, box5_8, box5_9, box6_1, box6_10, box6_3, box6_4, box6_5, box6_8, box6_9, box7_1, box7_2,
+            box7_4, box7_5, box7_6, box7_7, box7_8, box7_9};
+
+        for (javax.swing.JTextPane c : celdas) {
+            aplicarEstiloCrucigrama(c);
+        }
+        */
     }
 
     /**
@@ -73,7 +86,7 @@ public class View extends javax.swing.JFrame {
         jScrollPane24 = new javax.swing.JScrollPane();
         box6_1 = new javax.swing.JTextPane();
         jScrollPane25 = new javax.swing.JScrollPane();
-        box6_2_4_6 = new javax.swing.JTextPane();
+        box4_6_6_2 = new javax.swing.JTextPane();
         jScrollPane26 = new javax.swing.JScrollPane();
         box6_3 = new javax.swing.JTextPane();
         jScrollPane27 = new javax.swing.JScrollPane();
@@ -111,13 +124,13 @@ public class View extends javax.swing.JFrame {
         jScrollPane43 = new javax.swing.JScrollPane();
         box4_2 = new javax.swing.JTextPane();
         jScrollPane44 = new javax.swing.JScrollPane();
-        asd2 = new javax.swing.JTextPane();
+        box4_3 = new javax.swing.JTextPane();
         jScrollPane45 = new javax.swing.JScrollPane();
-        d123 = new javax.swing.JTextPane();
+        box4_4 = new javax.swing.JTextPane();
         jScrollPane46 = new javax.swing.JScrollPane();
-        asd312 = new javax.swing.JTextPane();
+        box4_5 = new javax.swing.JTextPane();
         jScrollPane47 = new javax.swing.JScrollPane();
-        dwsa341a = new javax.swing.JTextPane();
+        box4_7 = new javax.swing.JTextPane();
         btn2 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
         btn4 = new javax.swing.JButton();
@@ -198,7 +211,7 @@ public class View extends javax.swing.JFrame {
 
         jScrollPane24.setViewportView(box6_1);
 
-        jScrollPane25.setViewportView(box6_2_4_6);
+        jScrollPane25.setViewportView(box4_6_6_2);
 
         jScrollPane26.setViewportView(box6_3);
 
@@ -236,13 +249,13 @@ public class View extends javax.swing.JFrame {
 
         jScrollPane43.setViewportView(box4_2);
 
-        jScrollPane44.setViewportView(asd2);
+        jScrollPane44.setViewportView(box4_3);
 
-        jScrollPane45.setViewportView(d123);
+        jScrollPane45.setViewportView(box4_4);
 
-        jScrollPane46.setViewportView(asd312);
+        jScrollPane46.setViewportView(box4_5);
 
-        jScrollPane47.setViewportView(dwsa341a);
+        jScrollPane47.setViewportView(box4_7);
 
         btn2.setText("2");
         btn2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -660,16 +673,24 @@ public class View extends javax.swing.JFrame {
                 if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
+
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
+
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
+
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
+
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
@@ -681,9 +702,32 @@ public class View extends javax.swing.JFrame {
         });
     }
 
+    private void aplicarEstiloCrucigrama(javax.swing.JTextPane pane) {
+        // 1. PARA LA FUENTE: Negrita y Tamaño 18
+        pane.setFont(new java.awt.Font("Tahoma", java.awt.Font.BOLD, 18));
+
+        // 2. CENTRADO HORIZONTAL
+        javax.swing.text.SimpleAttributeSet center = new javax.swing.text.SimpleAttributeSet();
+        javax.swing.text.StyleConstants.setAlignment(center, javax.swing.text.StyleConstants.ALIGN_CENTER);
+        pane.setParagraphAttributes(center, true);
+
+        // 3. CENTRADO VERTICAL (Usando un borde invisible arriba)
+        // El '8' es el margen superior, aústalo si la letra queda muy arriba o abajo
+        pane.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 0, 0, 0));
+
+        // 4. LÍMITE DE UNA SOLA LETRA
+        pane.addKeyListener(new java.awt.event.KeyAdapter() {
+            @Override
+            public void keyTyped(java.awt.event.KeyEvent e) {
+                // Si ya hay algo escrito, ignora la nueva tecla
+                if (pane.getText().length() >= 1) {
+                    e.consume();
+                }
+            }
+        });
+    }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JTextPane asd2;
-    public javax.swing.JTextPane asd312;
     public javax.swing.JTextPane box1_1;
     public javax.swing.JTextPane box1_1_2_2;
     public javax.swing.JTextPane box1_2;
@@ -706,8 +750,13 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JTextPane box3_9;
     public javax.swing.JTextPane box4_1;
     public javax.swing.JTextPane box4_2;
+    public javax.swing.JTextPane box4_3;
+    public javax.swing.JTextPane box4_4;
+    public javax.swing.JTextPane box4_5;
+    public javax.swing.JTextPane box4_6_6_2;
+    public javax.swing.JTextPane box4_7;
     public javax.swing.JTextPane box5_1;
-    private javax.swing.JTextPane box5_10;
+    public javax.swing.JTextPane box5_10;
     public javax.swing.JTextPane box5_2;
     public javax.swing.JTextPane box5_3;
     public javax.swing.JTextPane box5_4_6_8;
@@ -718,7 +767,6 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JTextPane box5_9;
     public javax.swing.JTextPane box6_1;
     public javax.swing.JTextPane box6_10;
-    public javax.swing.JTextPane box6_2_4_6;
     public javax.swing.JTextPane box6_3;
     public javax.swing.JTextPane box6_4;
     public javax.swing.JTextPane box6_5;
@@ -741,8 +789,6 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JButton btn7;
     private javax.swing.JButton btnComprobarCrucigrama;
     private javax.swing.JButton btnComprobarPalabra;
-    public javax.swing.JTextPane d123;
-    public javax.swing.JTextPane dwsa341a;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -800,6 +846,6 @@ public class View extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTextArea textClue;
+    public javax.swing.JTextArea textClue;
     // End of variables declaration//GEN-END:variables
 }
