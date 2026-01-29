@@ -8,6 +8,7 @@ public class Model {
     private HashMap<String, String> pistaMap = new HashMap<>();
     private HashMap<String, String> solucionMap = new HashMap<>();
 
+
     public Model() {
 
         fillPistaMap();
@@ -41,7 +42,7 @@ public class Model {
     }
 
     // METHODS
-    public void fillPistaMap() {
+    private void fillPistaMap() {
 
         this.pistaMap.put("btn1", "Profe buena onda que me va a aprobar B)");
         this.pistaMap.put("btn2", "Personaje del League of Leyends que llega a su power spike cuando vá 0/10");
@@ -53,7 +54,7 @@ public class Model {
 
     }
 
-    public void fillSolucionMap() {
+    private void fillSolucionMap() {
 
         this.solucionMap.put("btn1", "VARGAS");
         this.solucionMap.put("btn2", "YASUO");
@@ -64,6 +65,7 @@ public class Model {
         this.solucionMap.put("btn7", "PALPATINE");
 
     }
+
 
     public String get(String number) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

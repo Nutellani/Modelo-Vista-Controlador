@@ -16,19 +16,6 @@ public class View extends javax.swing.JFrame {
      */
     public View() {
         initComponents();
-
-        /* VER AL FINAL SI ESTO VÁ EN AL VIEW O NO...
-        // Lista de todos los box a estilizar
-        javax.swing.JTextPane[] celdas = {box1_1, box1_1_2_2, box1_2, box1_4, box1_5, box1_6_3_1, box2_1, box2_3, box2_4, box2_5, box3_10,
-            box3_11_6_6, box3_2, box3_3, box3_4, box3_5, box3_6, box3_7, box3_8, box3_9, box4_1, box4_2, box4_3,
-            box4_4, box4_5, box4_6_6_2, box4_7, box5_1, box5_10, box5_2, box5_3, box5_4_6_8, box5_5, box5_6,
-            box5_7_7_3, box5_8, box5_9, box6_1, box6_10, box6_3, box6_4, box6_5, box6_8, box6_9, box7_1, box7_2,
-            box7_4, box7_5, box7_6, box7_7, box7_8, box7_9};
-
-        for (javax.swing.JTextPane c : celdas) {
-            aplicarEstiloCrucigrama(c);
-        }
-        */
     }
 
     /**
@@ -50,13 +37,13 @@ public class View extends javax.swing.JFrame {
         jScrollPane5 = new javax.swing.JScrollPane();
         box1_4 = new javax.swing.JTextPane();
         jScrollPane6 = new javax.swing.JScrollPane();
-        box1_2 = new javax.swing.JTextPane();
+        box1_3 = new javax.swing.JTextPane();
         jScrollPane7 = new javax.swing.JScrollPane();
         box1_5 = new javax.swing.JTextPane();
         jScrollPane8 = new javax.swing.JScrollPane();
         box1_6_3_1 = new javax.swing.JTextPane();
         jScrollPane9 = new javax.swing.JScrollPane();
-        box1_1_2_2 = new javax.swing.JTextPane();
+        box1_2_2_2 = new javax.swing.JTextPane();
         jScrollPane10 = new javax.swing.JScrollPane();
         box2_5 = new javax.swing.JTextPane();
         jScrollPane11 = new javax.swing.JScrollPane();
@@ -73,8 +60,6 @@ public class View extends javax.swing.JFrame {
         box3_5 = new javax.swing.JTextPane();
         jScrollPane17 = new javax.swing.JScrollPane();
         box3_6 = new javax.swing.JTextPane();
-        jScrollPane18 = new javax.swing.JScrollPane();
-        box3_7 = new javax.swing.JTextPane();
         jScrollPane20 = new javax.swing.JScrollPane();
         box3_8 = new javax.swing.JTextPane();
         jScrollPane21 = new javax.swing.JScrollPane();
@@ -166,22 +151,24 @@ public class View extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(102, 102, 102));
 
+        box1_1.setName("box1_1"); // NOI18N
         jScrollPane3.setViewportView(box1_1);
 
         jScrollPane4.setViewportView(box2_1);
 
         btn1.setText("1");
         btn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn1.setName(""); // NOI18N
 
         jScrollPane5.setViewportView(box1_4);
 
-        jScrollPane6.setViewportView(box1_2);
+        jScrollPane6.setViewportView(box1_3);
 
         jScrollPane7.setViewportView(box1_5);
 
         jScrollPane8.setViewportView(box1_6_3_1);
 
-        jScrollPane9.setViewportView(box1_1_2_2);
+        jScrollPane9.setViewportView(box1_2_2_2);
 
         jScrollPane10.setViewportView(box2_5);
 
@@ -198,8 +185,6 @@ public class View extends javax.swing.JFrame {
         jScrollPane16.setViewportView(box3_5);
 
         jScrollPane17.setViewportView(box3_6);
-
-        jScrollPane18.setViewportView(box3_7);
 
         jScrollPane20.setViewportView(box3_8);
 
@@ -356,9 +341,7 @@ public class View extends javax.swing.JFrame {
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(btn6)
                                             .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(52, 52, 52)
+                                        .addGap(98, 98, 98)
                                         .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -494,7 +477,6 @@ public class View extends javax.swing.JFrame {
                                     .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -702,35 +684,11 @@ public class View extends javax.swing.JFrame {
         });
     }
 
-    private void aplicarEstiloCrucigrama(javax.swing.JTextPane pane) {
-        // 1. PARA LA FUENTE: Negrita y Tamaño 18
-        pane.setFont(new java.awt.Font("Tahoma", java.awt.Font.BOLD, 18));
-
-        // 2. CENTRADO HORIZONTAL
-        javax.swing.text.SimpleAttributeSet center = new javax.swing.text.SimpleAttributeSet();
-        javax.swing.text.StyleConstants.setAlignment(center, javax.swing.text.StyleConstants.ALIGN_CENTER);
-        pane.setParagraphAttributes(center, true);
-
-        // 3. CENTRADO VERTICAL (Usando un borde invisible arriba)
-        // El '8' es el margen superior, aústalo si la letra queda muy arriba o abajo
-        pane.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 0, 0, 0));
-
-        // 4. LÍMITE DE UNA SOLA LETRA
-        pane.addKeyListener(new java.awt.event.KeyAdapter() {
-            @Override
-            public void keyTyped(java.awt.event.KeyEvent e) {
-                // Si ya hay algo escrito, ignora la nueva tecla
-                if (pane.getText().length() >= 1) {
-                    e.consume();
-                }
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JTextPane box1_1;
-    public javax.swing.JTextPane box1_1_2_2;
-    public javax.swing.JTextPane box1_2;
+    public javax.swing.JTextPane box1_2_2_2;
+    public javax.swing.JTextPane box1_3;
     public javax.swing.JTextPane box1_4;
     public javax.swing.JTextPane box1_5;
     public javax.swing.JTextPane box1_6_3_1;
@@ -745,7 +703,6 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JTextPane box3_4;
     public javax.swing.JTextPane box3_5;
     public javax.swing.JTextPane box3_6;
-    public javax.swing.JTextPane box3_7;
     public javax.swing.JTextPane box3_8;
     public javax.swing.JTextPane box3_9;
     public javax.swing.JTextPane box4_1;
@@ -801,7 +758,6 @@ public class View extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane15;
     private javax.swing.JScrollPane jScrollPane16;
     public javax.swing.JScrollPane jScrollPane17;
-    private javax.swing.JScrollPane jScrollPane18;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane21;
