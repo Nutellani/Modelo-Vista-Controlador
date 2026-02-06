@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Model {
 
-    private String textClue;
+    private String textPista;
     private HashMap<String, String> pistaMap = new HashMap<>();
     private HashMap<String, String> solucionMap = new HashMap<>();
 
@@ -17,12 +17,12 @@ public class Model {
     }
 
     // GETTERS & SETTERS
-    public String getTextClue() {
-        return textClue;
+    public String getTextPista() {
+        return textPista;
     }
 
-    public void setTextClue(String textClue) {
-        this.textClue = textClue;
+    public void setTextPista(String textPista) {
+        this.textPista = textPista;
     }
 
     public HashMap<String, String> getPistaMap() {
@@ -65,7 +65,6 @@ public class Model {
         this.solucionMap.put("btn7", "PALPATINE");
 
     }
-
 
     public String get(String number) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

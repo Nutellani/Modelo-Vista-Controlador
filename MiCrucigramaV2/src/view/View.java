@@ -29,117 +29,66 @@ public class View extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        box1_1 = new javax.swing.JTextPane();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        box2_1 = new javax.swing.JTextPane();
         btn1 = new javax.swing.JButton();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        box1_4 = new javax.swing.JTextPane();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        box1_3 = new javax.swing.JTextPane();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        box1_5 = new javax.swing.JTextPane();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        box1_6_3_1 = new javax.swing.JTextPane();
-        jScrollPane9 = new javax.swing.JScrollPane();
-        box1_2_2_2 = new javax.swing.JTextPane();
-        jScrollPane10 = new javax.swing.JScrollPane();
-        box2_5 = new javax.swing.JTextPane();
-        jScrollPane11 = new javax.swing.JScrollPane();
-        box2_3 = new javax.swing.JTextPane();
-        jScrollPane12 = new javax.swing.JScrollPane();
-        box2_4 = new javax.swing.JTextPane();
-        jScrollPane13 = new javax.swing.JScrollPane();
-        box3_2 = new javax.swing.JTextPane();
-        jScrollPane14 = new javax.swing.JScrollPane();
-        box3_3 = new javax.swing.JTextPane();
-        jScrollPane15 = new javax.swing.JScrollPane();
-        box3_4 = new javax.swing.JTextPane();
-        jScrollPane16 = new javax.swing.JScrollPane();
-        box3_5 = new javax.swing.JTextPane();
-        jScrollPane17 = new javax.swing.JScrollPane();
-        box3_6 = new javax.swing.JTextPane();
-        jScrollPane20 = new javax.swing.JScrollPane();
-        box3_8 = new javax.swing.JTextPane();
-        jScrollPane21 = new javax.swing.JScrollPane();
-        box3_9 = new javax.swing.JTextPane();
-        jScrollPane22 = new javax.swing.JScrollPane();
-        box3_10 = new javax.swing.JTextPane();
-        jScrollPane23 = new javax.swing.JScrollPane();
-        box3_11_6_6 = new javax.swing.JTextPane();
-        jScrollPane24 = new javax.swing.JScrollPane();
-        box6_1 = new javax.swing.JTextPane();
-        jScrollPane25 = new javax.swing.JScrollPane();
-        box4_6_6_2 = new javax.swing.JTextPane();
-        jScrollPane26 = new javax.swing.JScrollPane();
-        box6_3 = new javax.swing.JTextPane();
-        jScrollPane27 = new javax.swing.JScrollPane();
-        box6_4 = new javax.swing.JTextPane();
-        jScrollPane28 = new javax.swing.JScrollPane();
-        box6_5 = new javax.swing.JTextPane();
-        jScrollPane29 = new javax.swing.JScrollPane();
-        box6_8 = new javax.swing.JTextPane();
-        jScrollPane30 = new javax.swing.JScrollPane();
-        box5_4_6_8 = new javax.swing.JTextPane();
-        jScrollPane31 = new javax.swing.JScrollPane();
-        box6_9 = new javax.swing.JTextPane();
-        jScrollPane32 = new javax.swing.JScrollPane();
-        box6_10 = new javax.swing.JTextPane();
-        jScrollPane33 = new javax.swing.JScrollPane();
-        box5_5 = new javax.swing.JTextPane();
-        jScrollPane34 = new javax.swing.JScrollPane();
-        box5_1 = new javax.swing.JTextPane();
-        jScrollPane35 = new javax.swing.JScrollPane();
-        box5_2 = new javax.swing.JTextPane();
-        jScrollPane36 = new javax.swing.JScrollPane();
-        box5_3 = new javax.swing.JTextPane();
-        jScrollPane37 = new javax.swing.JScrollPane();
-        box5_10 = new javax.swing.JTextPane();
-        jScrollPane38 = new javax.swing.JScrollPane();
-        box5_6 = new javax.swing.JTextPane();
-        jScrollPane39 = new javax.swing.JScrollPane();
-        box5_7_7_3 = new javax.swing.JTextPane();
-        jScrollPane40 = new javax.swing.JScrollPane();
-        box5_8 = new javax.swing.JTextPane();
-        jScrollPane41 = new javax.swing.JScrollPane();
-        box5_9 = new javax.swing.JTextPane();
-        jScrollPane42 = new javax.swing.JScrollPane();
-        box4_1 = new javax.swing.JTextPane();
-        jScrollPane43 = new javax.swing.JScrollPane();
-        box4_2 = new javax.swing.JTextPane();
-        jScrollPane44 = new javax.swing.JScrollPane();
-        box4_3 = new javax.swing.JTextPane();
-        jScrollPane45 = new javax.swing.JScrollPane();
-        box4_4 = new javax.swing.JTextPane();
-        jScrollPane46 = new javax.swing.JScrollPane();
-        box4_5 = new javax.swing.JTextPane();
-        jScrollPane47 = new javax.swing.JScrollPane();
-        box4_7 = new javax.swing.JTextPane();
         btn2 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
         btn4 = new javax.swing.JButton();
         btn5 = new javax.swing.JButton();
         btn6 = new javax.swing.JButton();
-        jScrollPane48 = new javax.swing.JScrollPane();
-        box7_2 = new javax.swing.JTextPane();
-        jScrollPane49 = new javax.swing.JScrollPane();
-        box7_1 = new javax.swing.JTextPane();
-        jScrollPane50 = new javax.swing.JScrollPane();
-        box7_4 = new javax.swing.JTextPane();
-        jScrollPane51 = new javax.swing.JScrollPane();
-        box7_6 = new javax.swing.JTextPane();
-        jScrollPane52 = new javax.swing.JScrollPane();
-        box7_5 = new javax.swing.JTextPane();
-        jScrollPane53 = new javax.swing.JScrollPane();
-        box7_9 = new javax.swing.JTextPane();
-        jScrollPane54 = new javax.swing.JScrollPane();
-        box7_7 = new javax.swing.JTextPane();
-        jScrollPane55 = new javax.swing.JScrollPane();
-        box7_8 = new javax.swing.JTextPane();
         btn7 = new javax.swing.JButton();
+        box1_1 = new javax.swing.JTextField();
+        box1_2_2_2 = new javax.swing.JTextField();
+        box1_3 = new javax.swing.JTextField();
+        box1_4 = new javax.swing.JTextField();
+        box1_5 = new javax.swing.JTextField();
+        box1_6_3_1 = new javax.swing.JTextField();
+        box2_1 = new javax.swing.JTextField();
+        box2_3 = new javax.swing.JTextField();
+        box2_5 = new javax.swing.JTextField();
+        box2_4 = new javax.swing.JTextField();
+        box3_2 = new javax.swing.JTextField();
+        box3_3 = new javax.swing.JTextField();
+        box3_4 = new javax.swing.JTextField();
+        box3_5 = new javax.swing.JTextField();
+        jTextField15 = new javax.swing.JTextField();
+        box4_6_6_2 = new javax.swing.JTextField();
+        box4_5 = new javax.swing.JTextField();
+        box4_4 = new javax.swing.JTextField();
+        box4_3 = new javax.swing.JTextField();
+        box4_2 = new javax.swing.JTextField();
+        box4_1 = new javax.swing.JTextField();
+        box4_7 = new javax.swing.JTextField();
+        box6_1 = new javax.swing.JTextField();
+        box6_4 = new javax.swing.JTextField();
+        box6_3 = new javax.swing.JTextField();
+        box6_5 = new javax.swing.JTextField();
+        box3_11_6_6 = new javax.swing.JTextField();
+        box6_7 = new javax.swing.JTextField();
+        box5_4_6_8 = new javax.swing.JTextField();
+        box3_10 = new javax.swing.JTextField();
+        box3_8 = new javax.swing.JTextField();
+        box3_9 = new javax.swing.JTextField();
+        box3_6 = new javax.swing.JTextField();
+        box3_7 = new javax.swing.JTextField();
+        box5_5 = new javax.swing.JTextField();
+        box5_3 = new javax.swing.JTextField();
+        box5_2 = new javax.swing.JTextField();
+        box5_1 = new javax.swing.JTextField();
+        box7_5 = new javax.swing.JTextField();
+        box7_4 = new javax.swing.JTextField();
+        box7_1 = new javax.swing.JTextField();
+        box7_2 = new javax.swing.JTextField();
+        box5_7_7_3 = new javax.swing.JTextField();
+        box5_10 = new javax.swing.JTextField();
+        box5_8 = new javax.swing.JTextField();
+        box5_6 = new javax.swing.JTextField();
+        box5_9 = new javax.swing.JTextField();
+        box7_9 = new javax.swing.JTextField();
+        box7_8 = new javax.swing.JTextField();
+        box7_7 = new javax.swing.JTextField();
+        box7_6 = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
-        textClue = new javax.swing.JTextArea();
+        textPista = new javax.swing.JTextArea();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         btnComprobarPalabra = new javax.swing.JButton();
@@ -151,96 +100,9 @@ public class View extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(102, 102, 102));
 
-        box1_1.setName("box1_1"); // NOI18N
-        jScrollPane3.setViewportView(box1_1);
-
-        jScrollPane4.setViewportView(box2_1);
-
         btn1.setText("1");
         btn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn1.setName(""); // NOI18N
-
-        jScrollPane5.setViewportView(box1_4);
-
-        jScrollPane6.setViewportView(box1_3);
-
-        jScrollPane7.setViewportView(box1_5);
-
-        jScrollPane8.setViewportView(box1_6_3_1);
-
-        jScrollPane9.setViewportView(box1_2_2_2);
-
-        jScrollPane10.setViewportView(box2_5);
-
-        jScrollPane11.setViewportView(box2_3);
-
-        jScrollPane12.setViewportView(box2_4);
-
-        jScrollPane13.setViewportView(box3_2);
-
-        jScrollPane14.setViewportView(box3_3);
-
-        jScrollPane15.setViewportView(box3_4);
-
-        jScrollPane16.setViewportView(box3_5);
-
-        jScrollPane17.setViewportView(box3_6);
-
-        jScrollPane20.setViewportView(box3_8);
-
-        jScrollPane21.setViewportView(box3_9);
-
-        jScrollPane22.setViewportView(box3_10);
-
-        jScrollPane23.setViewportView(box3_11_6_6);
-
-        jScrollPane24.setViewportView(box6_1);
-
-        jScrollPane25.setViewportView(box4_6_6_2);
-
-        jScrollPane26.setViewportView(box6_3);
-
-        jScrollPane27.setViewportView(box6_4);
-
-        jScrollPane28.setViewportView(box6_5);
-
-        jScrollPane29.setViewportView(box6_8);
-
-        jScrollPane30.setViewportView(box5_4_6_8);
-
-        jScrollPane31.setViewportView(box6_9);
-
-        jScrollPane32.setViewportView(box6_10);
-
-        jScrollPane33.setViewportView(box5_5);
-
-        jScrollPane34.setViewportView(box5_1);
-
-        jScrollPane35.setViewportView(box5_2);
-
-        jScrollPane36.setViewportView(box5_3);
-
-        jScrollPane37.setViewportView(box5_10);
-
-        jScrollPane38.setViewportView(box5_6);
-
-        jScrollPane39.setViewportView(box5_7_7_3);
-
-        jScrollPane40.setViewportView(box5_8);
-
-        jScrollPane41.setViewportView(box5_9);
-
-        jScrollPane42.setViewportView(box4_1);
-
-        jScrollPane43.setViewportView(box4_2);
-
-        jScrollPane44.setViewportView(box4_3);
-
-        jScrollPane45.setViewportView(box4_4);
-
-        jScrollPane46.setViewportView(box4_5);
-
-        jScrollPane47.setViewportView(box4_7);
 
         btn2.setText("2");
         btn2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -267,24 +129,314 @@ public class View extends javax.swing.JFrame {
             }
         });
 
-        jScrollPane48.setViewportView(box7_2);
-
-        jScrollPane49.setViewportView(box7_1);
-
-        jScrollPane50.setViewportView(box7_4);
-
-        jScrollPane51.setViewportView(box7_6);
-
-        jScrollPane52.setViewportView(box7_5);
-
-        jScrollPane53.setViewportView(box7_9);
-
-        jScrollPane54.setViewportView(box7_7);
-
-        jScrollPane55.setViewportView(box7_8);
-
         btn7.setText("7");
         btn7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        box1_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_1ActionPerformed(evt);
+            }
+        });
+
+        box1_2_2_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_2_2_2ActionPerformed(evt);
+            }
+        });
+
+        box1_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_3ActionPerformed(evt);
+            }
+        });
+
+        box1_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_4ActionPerformed(evt);
+            }
+        });
+
+        box1_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_5ActionPerformed(evt);
+            }
+        });
+
+        box1_6_3_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box1_6_3_1ActionPerformed(evt);
+            }
+        });
+
+        box2_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box2_1ActionPerformed(evt);
+            }
+        });
+
+        box2_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box2_3ActionPerformed(evt);
+            }
+        });
+
+        box2_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box2_5ActionPerformed(evt);
+            }
+        });
+
+        box2_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box2_4ActionPerformed(evt);
+            }
+        });
+
+        box3_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_2ActionPerformed(evt);
+            }
+        });
+
+        box3_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_3ActionPerformed(evt);
+            }
+        });
+
+        box3_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_4ActionPerformed(evt);
+            }
+        });
+
+        box3_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_5ActionPerformed(evt);
+            }
+        });
+
+        jTextField15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField15ActionPerformed(evt);
+            }
+        });
+
+        box4_6_6_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_6_6_2ActionPerformed(evt);
+            }
+        });
+
+        box4_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_5ActionPerformed(evt);
+            }
+        });
+
+        box4_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_4ActionPerformed(evt);
+            }
+        });
+
+        box4_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_3ActionPerformed(evt);
+            }
+        });
+
+        box4_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_2ActionPerformed(evt);
+            }
+        });
+
+        box4_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_1ActionPerformed(evt);
+            }
+        });
+
+        box4_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box4_7ActionPerformed(evt);
+            }
+        });
+
+        box6_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_1ActionPerformed(evt);
+            }
+        });
+
+        box6_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_4ActionPerformed(evt);
+            }
+        });
+
+        box6_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_3ActionPerformed(evt);
+            }
+        });
+
+        box6_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_5ActionPerformed(evt);
+            }
+        });
+
+        box3_11_6_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_11_6_6ActionPerformed(evt);
+            }
+        });
+
+        box6_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_7ActionPerformed(evt);
+            }
+        });
+
+        box5_4_6_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_4_6_8ActionPerformed(evt);
+            }
+        });
+
+        box3_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_10ActionPerformed(evt);
+            }
+        });
+
+        box3_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_8ActionPerformed(evt);
+            }
+        });
+
+        box3_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_9ActionPerformed(evt);
+            }
+        });
+
+        box3_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_6ActionPerformed(evt);
+            }
+        });
+
+        box3_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box3_7ActionPerformed(evt);
+            }
+        });
+
+        box5_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_5ActionPerformed(evt);
+            }
+        });
+
+        box5_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_3ActionPerformed(evt);
+            }
+        });
+
+        box5_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_2ActionPerformed(evt);
+            }
+        });
+
+        box5_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_1ActionPerformed(evt);
+            }
+        });
+
+        box7_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_5ActionPerformed(evt);
+            }
+        });
+
+        box7_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_4ActionPerformed(evt);
+            }
+        });
+
+        box7_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_1ActionPerformed(evt);
+            }
+        });
+
+        box7_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_2ActionPerformed(evt);
+            }
+        });
+
+        box5_7_7_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_7_7_3ActionPerformed(evt);
+            }
+        });
+
+        box5_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_10ActionPerformed(evt);
+            }
+        });
+
+        box5_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_8ActionPerformed(evt);
+            }
+        });
+
+        box5_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_6ActionPerformed(evt);
+            }
+        });
+
+        box5_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box5_9ActionPerformed(evt);
+            }
+        });
+
+        box7_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_9ActionPerformed(evt);
+            }
+        });
+
+        box7_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_8ActionPerformed(evt);
+            }
+        });
+
+        box7_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_7ActionPerformed(evt);
+            }
+        });
+
+        box7_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box7_6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -292,240 +444,244 @@ public class View extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(49, 49, 49)
-                .addComponent(btn2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btn1)
-                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jScrollPane42, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane43, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane44, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane45, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane46, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(btn6)
-                                            .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(98, 98, 98)
-                                        .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                    .addComponent(btn4, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(btn3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addComponent(jScrollPane34, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane35, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane36, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addComponent(btn5)
-                                .addGap(136, 136, 136)))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(144, 144, 144)
-                        .addComponent(jScrollPane49, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addComponent(jScrollPane29, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jScrollPane48, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(btn2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(btn1)
+                                    .addComponent(box2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane47, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane26, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane24, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane32, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane31, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(box1_2_2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(98, 98, 98)
+                                        .addComponent(box4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                                .addComponent(jScrollPane30, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(box1_6_3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jScrollPane33, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addComponent(jScrollPane28, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(52, 52, 52)
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(btn7)
-                                            .addComponent(jScrollPane38, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                                .addComponent(box3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(box3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(box3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(box3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addComponent(box1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addComponent(btn6))
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addComponent(box1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(box1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addGap(6, 6, 6)
+                                                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addGap(144, 144, 144)
+                                                        .addComponent(box3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(box3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(box3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box3_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(btn4, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(btn3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btn5)
+                                .addGap(136, 136, 136))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(box5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(box5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(box5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(box4_6_6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(box4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(box6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(box3_11_6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(box5_4_6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(box5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(box6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(52, 52, 52)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btn7)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(box5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jScrollPane50, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jScrollPane52, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jScrollPane51, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jScrollPane54, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jScrollPane55, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jScrollPane53, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jScrollPane39, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane40, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane41, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(71, Short.MAX_VALUE))
+                                    .addComponent(box7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(box5_7_7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box5_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(box7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addComponent(box6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(255, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(41, 41, 41)
+                .addGap(45, 45, 45)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(6, 6, 6)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(6, 6, 6)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(52, 52, 52)
-                                        .addComponent(jScrollPane46, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jScrollPane24, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box1_2_2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jScrollPane45, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane44, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane43, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(box1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addComponent(box1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(box1_6_3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(50, 50, 50)
-                                        .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jScrollPane42, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jScrollPane47, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane26, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jScrollPane28, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                    .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(92, 92, 92))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(box6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                                                        .addGap(12, 12, 12)
+                                                        .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                    .addComponent(box4_6_6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(box4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                                        .addComponent(box6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(box6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(14, 14, 14)
+                                                .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(box6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(box3_11_6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(box3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane49, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(box6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane29, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane48, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane34, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane33, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane35, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane36, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane40, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane41, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane38, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane39, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane30, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(box5_4_6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jScrollPane31, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(box7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane32, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jScrollPane50, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(box7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane52, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane51, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(box5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box5_7_7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane54, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(box7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane55, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(box7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane53, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(box7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(box7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(box7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(box7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
-        textClue.setEditable(false);
-        textClue.setColumns(20);
-        textClue.setRows(5);
-        textClue.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane2.setViewportView(textClue);
+        textPista.setEditable(false);
+        textPista.setColumns(20);
+        textPista.setRows(5);
+        textPista.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane2.setViewportView(textPista);
 
         jPanel3.setBackground(new java.awt.Color(255, 204, 153));
         jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -572,7 +728,7 @@ public class View extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 659, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -641,6 +797,210 @@ public class View extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn6ActionPerformed
 
+    private void box1_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_1ActionPerformed
+
+    private void box1_2_2_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_2_2_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_2_2_2ActionPerformed
+
+    private void box1_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_3ActionPerformed
+
+    private void box1_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_4ActionPerformed
+
+    private void box1_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_5ActionPerformed
+
+    private void box1_6_3_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box1_6_3_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box1_6_3_1ActionPerformed
+
+    private void box2_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box2_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box2_1ActionPerformed
+
+    private void box2_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box2_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box2_3ActionPerformed
+
+    private void box2_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box2_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box2_5ActionPerformed
+
+    private void box2_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box2_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box2_4ActionPerformed
+
+    private void box3_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_2ActionPerformed
+
+    private void box3_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_3ActionPerformed
+
+    private void box3_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_4ActionPerformed
+
+    private void box3_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_5ActionPerformed
+
+    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15ActionPerformed
+
+    private void box4_6_6_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_6_6_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_6_6_2ActionPerformed
+
+    private void box4_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_5ActionPerformed
+
+    private void box4_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_4ActionPerformed
+
+    private void box4_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_3ActionPerformed
+
+    private void box4_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_2ActionPerformed
+
+    private void box4_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_1ActionPerformed
+
+    private void box4_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box4_7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box4_7ActionPerformed
+
+    private void box6_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_1ActionPerformed
+
+    private void box6_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_4ActionPerformed
+
+    private void box6_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_3ActionPerformed
+
+    private void box6_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_5ActionPerformed
+
+    private void box3_11_6_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_11_6_6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_11_6_6ActionPerformed
+
+    private void box6_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_7ActionPerformed
+
+    private void box5_4_6_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_4_6_8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_4_6_8ActionPerformed
+
+    private void box3_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_10ActionPerformed
+
+    private void box3_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_8ActionPerformed
+
+    private void box3_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_9ActionPerformed
+
+    private void box3_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_6ActionPerformed
+
+    private void box3_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box3_7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box3_7ActionPerformed
+
+    private void box5_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_5ActionPerformed
+
+    private void box5_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_3ActionPerformed
+
+    private void box5_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_2ActionPerformed
+
+    private void box5_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_1ActionPerformed
+
+    private void box7_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_5ActionPerformed
+
+    private void box7_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_4ActionPerformed
+
+    private void box7_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_1ActionPerformed
+
+    private void box7_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_2ActionPerformed
+
+    private void box5_7_7_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_7_7_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_7_7_3ActionPerformed
+
+    private void box5_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_10ActionPerformed
+
+    private void box5_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_8ActionPerformed
+
+    private void box5_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_6ActionPerformed
+
+    private void box5_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box5_9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box5_9ActionPerformed
+
+    private void box7_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_9ActionPerformed
+
+    private void box7_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_8ActionPerformed
+
+    private void box7_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_7ActionPerformed
+
+    private void box7_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box7_6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box7_6ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -686,57 +1046,56 @@ public class View extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JTextPane box1_1;
-    public javax.swing.JTextPane box1_2_2_2;
-    public javax.swing.JTextPane box1_3;
-    public javax.swing.JTextPane box1_4;
-    public javax.swing.JTextPane box1_5;
-    public javax.swing.JTextPane box1_6_3_1;
-    public javax.swing.JTextPane box2_1;
-    public javax.swing.JTextPane box2_3;
-    public javax.swing.JTextPane box2_4;
-    public javax.swing.JTextPane box2_5;
-    public javax.swing.JTextPane box3_10;
-    public javax.swing.JTextPane box3_11_6_6;
-    public javax.swing.JTextPane box3_2;
-    public javax.swing.JTextPane box3_3;
-    public javax.swing.JTextPane box3_4;
-    public javax.swing.JTextPane box3_5;
-    public javax.swing.JTextPane box3_6;
-    public javax.swing.JTextPane box3_8;
-    public javax.swing.JTextPane box3_9;
-    public javax.swing.JTextPane box4_1;
-    public javax.swing.JTextPane box4_2;
-    public javax.swing.JTextPane box4_3;
-    public javax.swing.JTextPane box4_4;
-    public javax.swing.JTextPane box4_5;
-    public javax.swing.JTextPane box4_6_6_2;
-    public javax.swing.JTextPane box4_7;
-    public javax.swing.JTextPane box5_1;
-    public javax.swing.JTextPane box5_10;
-    public javax.swing.JTextPane box5_2;
-    public javax.swing.JTextPane box5_3;
-    public javax.swing.JTextPane box5_4_6_8;
-    public javax.swing.JTextPane box5_5;
-    public javax.swing.JTextPane box5_6;
-    public javax.swing.JTextPane box5_7_7_3;
-    public javax.swing.JTextPane box5_8;
-    public javax.swing.JTextPane box5_9;
-    public javax.swing.JTextPane box6_1;
-    public javax.swing.JTextPane box6_10;
-    public javax.swing.JTextPane box6_3;
-    public javax.swing.JTextPane box6_4;
-    public javax.swing.JTextPane box6_5;
-    public javax.swing.JTextPane box6_8;
-    public javax.swing.JTextPane box6_9;
-    public javax.swing.JTextPane box7_1;
-    public javax.swing.JTextPane box7_2;
-    public javax.swing.JTextPane box7_4;
-    public javax.swing.JTextPane box7_5;
-    public javax.swing.JTextPane box7_6;
-    public javax.swing.JTextPane box7_7;
-    public javax.swing.JTextPane box7_8;
-    public javax.swing.JTextPane box7_9;
+    public javax.swing.JTextField box1_1;
+    public javax.swing.JTextField box1_2_2_2;
+    public javax.swing.JTextField box1_3;
+    public javax.swing.JTextField box1_4;
+    public javax.swing.JTextField box1_5;
+    public javax.swing.JTextField box1_6_3_1;
+    public javax.swing.JTextField box2_1;
+    public javax.swing.JTextField box2_3;
+    public javax.swing.JTextField box2_4;
+    public javax.swing.JTextField box2_5;
+    public javax.swing.JTextField box3_10;
+    public javax.swing.JTextField box3_11_6_6;
+    public javax.swing.JTextField box3_2;
+    public javax.swing.JTextField box3_3;
+    public javax.swing.JTextField box3_4;
+    public javax.swing.JTextField box3_5;
+    public javax.swing.JTextField box3_6;
+    public javax.swing.JTextField box3_7;
+    public javax.swing.JTextField box3_8;
+    public javax.swing.JTextField box3_9;
+    public javax.swing.JTextField box4_1;
+    public javax.swing.JTextField box4_2;
+    public javax.swing.JTextField box4_3;
+    public javax.swing.JTextField box4_4;
+    public javax.swing.JTextField box4_5;
+    public javax.swing.JTextField box4_6_6_2;
+    public javax.swing.JTextField box4_7;
+    public javax.swing.JTextField box5_1;
+    public javax.swing.JTextField box5_10;
+    public javax.swing.JTextField box5_2;
+    public javax.swing.JTextField box5_3;
+    public javax.swing.JTextField box5_4_6_8;
+    public javax.swing.JTextField box5_5;
+    public javax.swing.JTextField box5_6;
+    public javax.swing.JTextField box5_7_7_3;
+    public javax.swing.JTextField box5_8;
+    public javax.swing.JTextField box5_9;
+    public javax.swing.JTextField box6_1;
+    public javax.swing.JTextField box6_3;
+    public javax.swing.JTextField box6_4;
+    public javax.swing.JTextField box6_5;
+    public javax.swing.JTextField box6_7;
+    public javax.swing.JTextField box7_1;
+    public javax.swing.JTextField box7_2;
+    public javax.swing.JTextField box7_4;
+    public javax.swing.JTextField box7_5;
+    public javax.swing.JTextField box7_6;
+    public javax.swing.JTextField box7_7;
+    public javax.swing.JTextField box7_8;
+    public javax.swing.JTextField box7_9;
     public javax.swing.JButton btn1;
     public javax.swing.JButton btn2;
     public javax.swing.JButton btn3;
@@ -744,64 +1103,14 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JButton btn5;
     public javax.swing.JButton btn6;
     public javax.swing.JButton btn7;
-    private javax.swing.JButton btnComprobarCrucigrama;
-    private javax.swing.JButton btnComprobarPalabra;
+    public javax.swing.JButton btnComprobarCrucigrama;
+    public javax.swing.JButton btnComprobarPalabra;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JScrollPane jScrollPane10;
-    private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
-    private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
-    public javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane20;
-    private javax.swing.JScrollPane jScrollPane21;
-    private javax.swing.JScrollPane jScrollPane22;
-    private javax.swing.JScrollPane jScrollPane23;
-    private javax.swing.JScrollPane jScrollPane24;
-    private javax.swing.JScrollPane jScrollPane25;
-    private javax.swing.JScrollPane jScrollPane26;
-    private javax.swing.JScrollPane jScrollPane27;
-    private javax.swing.JScrollPane jScrollPane28;
-    private javax.swing.JScrollPane jScrollPane29;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane30;
-    private javax.swing.JScrollPane jScrollPane31;
-    private javax.swing.JScrollPane jScrollPane32;
-    private javax.swing.JScrollPane jScrollPane33;
-    private javax.swing.JScrollPane jScrollPane34;
-    private javax.swing.JScrollPane jScrollPane35;
-    private javax.swing.JScrollPane jScrollPane36;
-    public javax.swing.JScrollPane jScrollPane37;
-    private javax.swing.JScrollPane jScrollPane38;
-    private javax.swing.JScrollPane jScrollPane39;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane40;
-    private javax.swing.JScrollPane jScrollPane41;
-    private javax.swing.JScrollPane jScrollPane42;
-    private javax.swing.JScrollPane jScrollPane43;
-    private javax.swing.JScrollPane jScrollPane44;
-    private javax.swing.JScrollPane jScrollPane45;
-    private javax.swing.JScrollPane jScrollPane46;
-    private javax.swing.JScrollPane jScrollPane47;
-    private javax.swing.JScrollPane jScrollPane48;
-    private javax.swing.JScrollPane jScrollPane49;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane50;
-    private javax.swing.JScrollPane jScrollPane51;
-    private javax.swing.JScrollPane jScrollPane52;
-    private javax.swing.JScrollPane jScrollPane53;
-    private javax.swing.JScrollPane jScrollPane54;
-    private javax.swing.JScrollPane jScrollPane55;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
-    private javax.swing.JScrollPane jScrollPane9;
-    public javax.swing.JTextArea textClue;
+    private javax.swing.JTextField jTextField15;
+    public javax.swing.JTextArea textPista;
     // End of variables declaration//GEN-END:variables
 }
