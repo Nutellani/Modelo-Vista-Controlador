@@ -18,7 +18,6 @@ import javax.swing.JTextField;
 
 
  */
-
 public class Controller implements ActionListener {
 
     private Model model;
@@ -95,40 +94,8 @@ public class Controller implements ActionListener {
         this.view.box7_7.addActionListener(this);
         this.view.box7_8.addActionListener(this);
         this.view.box7_9.addActionListener(this);
-
-    
-        /*MouseAdapter mouseAdapter = new MouseAdapter() {
-
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                JTextField panel = (JTextField) e.getSource();
-                System.out.println(panel.getText());
-
-                // ----------------------------
-                // ----------------------------
-            }
-        };
-
-        Container root = view.getContentPane();
-        recorrerComponentes(root, mouseAdapter);
-       
-        */
+        
     }
-        /*
-    private void recorrerComponentes(Component c, MouseAdapter mouseAdapter) {
-
-        if (c instanceof JTextField) {
-            JTextField pane = (JTextField) c;
-            pane.addMouseListener(mouseAdapter);
-        }
-
-        if (c instanceof Container || c instanceof JPanel) {
-            for (Component child : ((Container) c).getComponents()) {
-                recorrerComponentes(child, mouseAdapter);
-            }
-        }
-    }
-    MANERA JULI */
     
     private void fillCasillasMap() {
         ArrayList<JTextField> palabra1 = new ArrayList<>();
@@ -140,22 +107,46 @@ public class Controller implements ActionListener {
         palabra1.add(view.box1_6_3_1);
 
         casillasMap.put("btn1", palabra1);
+        
+        System.out.println(view.CasillasMap(btn1, ArrayList(0)));
+
+        // agregar otro ArrayList o se puede reutilizar el mismo arraylsit para agregar otro a un HashMap??
     }
-    
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        System.out.println(e.getClass());
-
         JButton source = (JButton) e.getSource();
+        // todos los objetos son o heredan de JButton
+
         palabraActual = source.getText();
+        System.out.println(palabraActual);
 
-        System.out.println(source.getText());
+        // if o un switch ?? Creo que el switch se ve mas prolijo.. y funcionan igual 
+        switch (palabraActual) {
 
-        pistaSwitch(source.getText());
+            case "Comprobar Palabra Actual":
+                comprobarPalabraActual(palabraActual);
+                break;
 
+            case "Comprobar Crucigrama":
+
+                for (int i = 0; i < model.getSolucionMap().size(); i++) {
+                    String iterador = String.valueOf(i + 1);
+                    comprobarPalabraActual(iterador);
+                }
+                break;
+
+            default:
+                
+                pistaSwitch(palabraActual);
+        }
     }
 
+    private void comprobarPalabraActual(String palabraActual) {
+        
+    }
+    
     private void pistaSwitch(String button) {
 
         switch (button) {
@@ -194,7 +185,21 @@ public class Controller implements ActionListener {
 
                 view.textPista.setText(model.getPistaMap().get("btn7"));
                 break;
+
+            default:
+                System.err.println("Ningun botón seleccionado");
         }
 
     }
+
+//        if (palabraActual.equals("Comprobar Palabra Actual")){
+//            comprobarPalabraActual();            
+//        } else if (palabraActual.equals("Comprobar Crucigrama")){
+//            for (int i = 0; i < 7; i++) {
+//            comprobarPalabraActual();    
+//            }
+//        } else {
+//            System.out.println(source.getText());
+//            pistaSwitch(source.getText());
+//        }
 }
