@@ -3,8 +3,7 @@ package model;
 import java.util.HashMap;
 
 public class Model {
-
-    //private String textPista; CREO Q ESTA AL PEDO
+    
     private HashMap<String, String> pistaMap = new HashMap<>();
     private HashMap<String, String> solucionMap = new HashMap<>();
 
@@ -16,13 +15,6 @@ public class Model {
     }
 
     // GETTERS & SETTERS
-    /*public String getTextPista() {
-        return textPista;
-    }
-
-    public void setTextPista(String textPista) {
-        this.textPista = textPista;
-    }*/
 
     public HashMap<String, String> getPistaMap() {
         return pistaMap;
@@ -65,7 +57,8 @@ public class Model {
 
     }
 
-    public String get(String number) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Integer tamanioMap(){
+        return pistaMap.size();
     }
+    
 }
