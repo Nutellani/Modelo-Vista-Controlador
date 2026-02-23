@@ -26,7 +26,6 @@ public class Controller implements ActionListener {
     private View view;
     private String palabraActual;
     private String accionARealizar;
-    private Boolean intentosTerminados;
     private HashMap<String, ArrayList<JTextField>> casillasMap = new HashMap<>();
 
     public Controller(Model model, View view) {
@@ -54,50 +53,6 @@ public class Controller implements ActionListener {
         this.view.btnComprobarPalabra.addActionListener(this);
         this.view.btnComprobarCrucigrama.addActionListener(this);
 
-//        this.view.box1_1.addActionListener(this);
-//        this.view.box1_2_2_2.addActionListener(this);
-//        this.view.box1_3.addActionListener(this);
-//        this.view.box1_4.addActionListener(this);
-//        this.view.box1_5.addActionListener(this);
-//        this.view.box1_6_3_1.addActionListener(this);
-//        this.view.box2_1.addActionListener(this);
-//        this.view.box2_3.addActionListener(this);
-//        this.view.box2_4.addActionListener(this);
-//        this.view.box2_5.addActionListener(this);
-//        this.view.box3_2.addActionListener(this);
-//        this.view.box3_3.addActionListener(this);
-//        this.view.box3_4.addActionListener(this);
-//        this.view.box3_5.addActionListener(this);
-//        this.view.box3_6.addActionListener(this);
-//        this.view.box3_7.addActionListener(this);
-//        this.view.box3_8.addActionListener(this);
-//        this.view.box3_9.addActionListener(this);
-//        this.view.box3_10.addActionListener(this);
-//        this.view.box3_11_6_6.addActionListener(this);
-//        this.view.box4_1.addActionListener(this);
-//        this.view.box4_2.addActionListener(this);
-//        this.view.box4_3.addActionListener(this);
-//        this.view.box4_4.addActionListener(this);
-//        this.view.box4_5.addActionListener(this);
-//        this.view.box4_6_6_2.addActionListener(this);
-//        this.view.box4_7.addActionListener(this);
-//        this.view.box5_1.addActionListener(this);
-//        this.view.box5_2.addActionListener(this);
-//        this.view.box5_3.addActionListener(this);
-//        this.view.box5_5.addActionListener(this);
-//        this.view.box5_6.addActionListener(this);
-//        this.view.box5_7_7_3.addActionListener(this);
-//        this.view.box5_8.addActionListener(this);
-//        this.view.box5_9.addActionListener(this);
-//        this.view.box5_10.addActionListener(this);
-//        this.view.box7_1.addActionListener(this);
-//        this.view.box7_2.addActionListener(this);
-//        this.view.box7_4.addActionListener(this);
-//        this.view.box7_5.addActionListener(this);
-//        this.view.box7_6.addActionListener(this);
-//        this.view.box7_7.addActionListener(this);
-//        this.view.box7_8.addActionListener(this);
-//        this.view.box7_9.addActionListener(this);
     }
 
     private void fillCasillasMap() {
@@ -188,13 +143,13 @@ public class Controller implements ActionListener {
     }
 
     private void realizarAccionBoton(JButton source) {
-        // todos los objetos son o heredan de JButton
+
         System.out.println(source.getText());
+        Boolean adivinoPalabra = false;
 
         if (source.getText().length() == 1) {
             this.palabraActual = source.getText();
             pistaSwitch(palabraActual);
-
             return;
         }
 
@@ -209,15 +164,24 @@ public class Controller implements ActionListener {
         switch (accionARealizar) {
 
             case "Comprobar Palabra Actual":
-                comprobarPalabraActual(palabraActual);
+                if (comprobarPalabraActual(palabraActual)) {
+                    view.textPista.setText("ADIVINÓ LA PALABRA " + palabraActual + " :)");
+                } else {
+                    view.textPista.setText("NOP, SIGUE INTENTANDO LA PALABRA " + palabraActual);
+                }
                 break;
 
             case "Comprobar Crucigrama":
 
-                for (int i = 1; i <= model.tamanioMap(); i++) {
+                for (int i = 1; i <= model.cantidadPalabras(); i++) {
                     String iterador = String.valueOf(i);
                     comprobarPalabraActual(iterador);
+                    if (!comprobarPalabraActual(iterador)) {
+                        view.textPista.setText("NOP, SIGUE INTENTANDO EL CRUCIGRAMA");
+                        return;
+                    }
                 }
+                view.textPista.setText("GANASTE, TERMINASTE EL CRUCIGRAMA");
                 break;
 
         }
@@ -234,16 +198,21 @@ public class Controller implements ActionListener {
      * @param palabraActual (String del nombre del boton para ser utilizado como
      * key, obtener el tamaño de sus letras para usar .size())
      */
-    private void comprobarPalabraActual(String palabraActual) {
+    private Boolean comprobarPalabraActual(String palabraActual) {
 
-        System.out.println(casillasMap.get("btn1").get(0));
-        for (int i = 1; i <= casillasMap.get("btn" + palabraActual).size(); i++) {
-            // TODO: comprobar palabra letra por letra
-            if (!casillasMap.get("btn" + palabraActual).get(palabraActual).equals("a")) {
-                System.err.println("PALABRA INCORRECTA");
-                casillasMap.get("btn" + palabraActual).get(i);
-                return;
+        ArrayList<JTextField> tamanioPalabra = casillasMap.get("btn" + palabraActual);
+
+        for (int i = 0; i < tamanioPalabra.size(); i++) {
+
+            String letraCasilla = casillasMap.get("btn" + palabraActual).get(i).getText();
+            String letraSolucion = model.getSolucionMap().get("btn" + palabraActual).substring(i, i + 1);
+
+            if (!letraCasilla.equalsIgnoreCase(letraSolucion)) {
+                System.err.println("Palabra INCORRECTA encontrada en botón " + palabraActual);
+                return false;
             }
+
         }
+        return true;
     }
 }

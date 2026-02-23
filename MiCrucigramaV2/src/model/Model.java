@@ -57,7 +57,7 @@ public class Model {
 
     }
 
-    public Integer tamanioMap(){
+    public Integer cantidadPalabras(){
         return pistaMap.size();
     }
     
