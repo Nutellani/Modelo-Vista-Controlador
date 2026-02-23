@@ -120,6 +120,9 @@ public class Controller implements ActionListener {
         palabra6.add(view.box3_11_6_6);
         palabra6.add(view.box6_7);
         palabra6.add(view.box5_4_6_8);
+        palabra6.add(view.box6_9);
+        palabra6.add(view.box6_10);
+        
         casillasMap.put("btn6", palabra6);
 
         ArrayList<JTextField> palabra7 = new ArrayList<>();

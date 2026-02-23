@@ -87,6 +87,8 @@ public class View extends javax.swing.JFrame {
         box7_8 = new javax.swing.JTextField();
         box7_7 = new javax.swing.JTextField();
         box7_6 = new javax.swing.JTextField();
+        box6_10 = new javax.swing.JTextField();
+        box6_9 = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
         textPista = new javax.swing.JTextArea();
         jPanel3 = new javax.swing.JPanel();
@@ -438,6 +440,18 @@ public class View extends javax.swing.JFrame {
             }
         });
 
+        box6_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_10ActionPerformed(evt);
+            }
+        });
+
+        box6_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                box6_9ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -537,7 +551,9 @@ public class View extends javax.swing.JFrame {
                                 .addComponent(box5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(box6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(box6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(box6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(box6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box6_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(box6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(52, 52, 52)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btn7)
@@ -663,9 +679,13 @@ public class View extends javax.swing.JFrame {
                             .addComponent(box5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(box5_7_7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(box7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(box7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(box6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(box7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(box7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(box6_10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(box7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1001,6 +1021,14 @@ public class View extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_box7_6ActionPerformed
 
+    private void box6_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_10ActionPerformed
+
+    private void box6_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_box6_9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_box6_9ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1084,10 +1112,12 @@ public class View extends javax.swing.JFrame {
     public javax.swing.JTextField box5_8;
     public javax.swing.JTextField box5_9;
     public javax.swing.JTextField box6_1;
+    public javax.swing.JTextField box6_10;
     public javax.swing.JTextField box6_3;
     public javax.swing.JTextField box6_4;
     public javax.swing.JTextField box6_5;
     public javax.swing.JTextField box6_7;
+    public javax.swing.JTextField box6_9;
     public javax.swing.JTextField box7_1;
     public javax.swing.JTextField box7_2;
     public javax.swing.JTextField box7_4;
