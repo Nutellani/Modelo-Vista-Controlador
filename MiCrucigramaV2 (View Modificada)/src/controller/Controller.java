@@ -10,20 +10,17 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.HashMap;
 import javax.swing.JButton;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 /*
 
 
     (CLASE DE CONSULTA)
-    -Clase Controller: Ver si el profe prefiere usar el MouseAdapter o los 51 AddActionListeners
-    -Clase Controller: Donde se deber ubicar el metodo fillCasillasMap(). Lo puse en el controller para que el Model no tenga acceso a la View
-    -Vista del Programa, ver si poner un scroll bar o no
-    -Achicar fillCasillasMap(), con un metodo con for ??
+    -Clase Controller: Donde se deber ubicar el metodo fillCasillasMap(). Lo puse en el controller para que el Model no tenga acceso directo a la View
 
 
  */
+
 public class Controller implements ActionListener {
 
     private Model model;
@@ -264,6 +261,8 @@ public class Controller implements ActionListener {
     //////// ESTILOS A LA PISTA
     private void aplicarEstilosAPista() {
         view.textPista.setFont(new Font("Tahoma", Font.BOLD, 14));
+        view.textPista.setHorizontalAlignment(JTextField.CENTER);
+
     }
 
 }
