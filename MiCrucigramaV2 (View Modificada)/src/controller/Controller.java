@@ -223,33 +223,35 @@ public class Controller implements ActionListener {
     //////// ESTILOS A LAS CASILLAS
     
     private void aplicarEstilosACasillas() {
-        // Recorremos el mapa que llenaste en fillCasillasMap
-        casillasMap.forEach((key, lista) -> {
-            for (JTextField casilla : lista) {
+        
+        // Uso el mismo fillCasillasMap para recorrerlo su totalidad de veces
+        
+        casillasMap.forEach((palabra, arrayList) -> {
+            for (JTextField casilla : arrayList) {
                 aplicarEstilo(casilla);
             }
         });
     }
 
-    private void aplicarEstilo(JTextField field) {
-    field.setFont(new java.awt.Font("Tahoma", java.awt.Font.BOLD, 18));
-    field.setHorizontalAlignment(JTextField.CENTER);
-    
-    field.addKeyListener(new java.awt.event.KeyAdapter() {
-        @Override
-        public void keyTyped(java.awt.event.KeyEvent e) {
-            // 1. Convertimos el caracter a mayúscula antes de que se escriba
-            char c = e.getKeyChar();
-            if (Character.isLowerCase(c)) {
-                e.setKeyChar(Character.toUpperCase(c));
-            }
+    private void aplicarEstilo(JTextField input) {
+        
+        input.setFont(new java.awt.Font("Tahoma", java.awt.Font.BOLD, 18));
+        input.setHorizontalAlignment(JTextField.CENTER);
+        input.addKeyListener(new java.awt.event.KeyAdapter() {
+            
+            @Override
+            public void keyTyped(java.awt.event.KeyEvent e) {
+                // 1. Convierto el caracter a mayuscula antes de que se escriba
+                char c = e.getKeyChar();
+                if (Character.isLowerCase(c)) {
+                    e.setKeyChar(Character.toUpperCase(c));
+                }
 
-            // 2. Límite de 1 carácter (tu código de antes)
-            if (field.getText().length() >= 1) {
-                e.consume(); 
+                // 2. Limite de 1 carácter
+                if (input.getText().length() >= 1) {
+                    e.consume(); 
+                }
             }
-        }
-    });
-}
-
+        });
+    }
 }
