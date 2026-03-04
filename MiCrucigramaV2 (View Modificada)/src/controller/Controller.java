@@ -4,9 +4,13 @@ import model.Model;
 import view.View;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Font;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.HashMap;
 import javax.swing.JButton;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 /*
@@ -37,6 +41,7 @@ public class Controller implements ActionListener {
     public void iniciar() {
         addListeners();
         aplicarEstilosACasillas();
+        aplicarEstilosAPista();
         view.setTitle("Crucigramix");
         view.setLocationRelativeTo(null);
     }
@@ -221,11 +226,9 @@ public class Controller implements ActionListener {
     }
 
     //////// ESTILOS A LAS CASILLAS
-    
     private void aplicarEstilosACasillas() {
-        
+
         // Uso el mismo fillCasillasMap para recorrerlo su totalidad de veces
-        
         casillasMap.forEach((palabra, arrayList) -> {
             for (JTextField casilla : arrayList) {
                 aplicarEstilo(casilla);
@@ -234,24 +237,33 @@ public class Controller implements ActionListener {
     }
 
     private void aplicarEstilo(JTextField input) {
-        
-        input.setFont(new java.awt.Font("Tahoma", java.awt.Font.BOLD, 18));
+
+        input.setFont(new Font("Tahoma", Font.BOLD, 18));
         input.setHorizontalAlignment(JTextField.CENTER);
-        input.addKeyListener(new java.awt.event.KeyAdapter() {
-            
+        input.addKeyListener(new KeyAdapter() {
+
             @Override
-            public void keyTyped(java.awt.event.KeyEvent e) {
-                // 1. Convierto el caracter a mayuscula antes de que se escriba
+            public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
+
+                // 1 Limite de 1 caracter
+                if (input.getText().length() >= 1) {
+                    e.consume();
+                    return;
+                }
+
+                // 2 Convierto el caracter a mayuscula antes de que se escriba
                 if (Character.isLowerCase(c)) {
                     e.setKeyChar(Character.toUpperCase(c));
                 }
 
-                // 2. Limite de 1 carácter
-                if (input.getText().length() >= 1) {
-                    e.consume(); 
-                }
             }
         });
     }
+
+    //////// ESTILOS A LA PISTA
+    private void aplicarEstilosAPista() {
+        view.textPista.setFont(new Font("Tahoma", Font.BOLD, 14));
+    }
+
 }
